@@ -30,6 +30,7 @@ import ProjectDetails from "./components/product/productDetails/ProjectDetails";
 import { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ThemeAction from "./actions/themeAction"
+import Theme from "./components/Theme";
 function App() {
   const dispatch = useDispatch();
   const themeReducer=useSelector((s)=>s.Theme)
@@ -55,6 +56,7 @@ function App() {
             <Login />
 
             <Routes>
+              <Route path="/theme" element={<Theme />} />
               <Route path="/teachers" element={<TeacherAL />} />
               <Route path="/notices" element={<NoticeAL />} />
               <Route path="/projects" element={<ProjectAL />} />

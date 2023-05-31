@@ -157,8 +157,11 @@ const Team = () => {
         <Membercomponent img={img1} name="Md Mahbubur Rahman" position="SUB-PRINCIPAL" />
         <Membercomponent img={img3} name="Md Sariful Islam" position="INSTRUCTOR" />{" "}
         <Membercomponent img={img4} name="Mst Sharmin Sultana" position="INSTRUCTOR" />
+        <Membercomponent img="/diya.jpg" name="Mst Diya Khatun" position="INSTRUCTOR" />
+        <Membercomponent img="/tuli1.jpg" name="Mst Tuli Khatun" position="INSTRUCTOR" />
         <Membercomponent img={img9} name="Md Tahera Khatun" position="INSTRUCTOR" />
-        <Membercomponent img={img8} name="Md Harun Islam" position="INSTRUCTOR" />
+        <Membercomponent img={img8} name="Harun Or Rashid" position="INSTRUCTOR" />
+        <Membercomponent img={img5} name="Pabitra Kumar Biswas" position="INSTRUCTOR" />
       </Container>
       <h1 style={{ textAlign: "center", fontSize: "2rem" }}>
         {" "}

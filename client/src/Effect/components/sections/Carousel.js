@@ -129,7 +129,13 @@ const Carousel = () => {
         <SwiperSlide>
           <img src={img8} />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
-            HARUN<span style={{ color: "var(--main-color)" }}> R</span> RASHID
+            HARUN<span style={{ color: "var(--main-color)" }}> OR</span> RASHID
+          </h1>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={img3} />
+          <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
+            Md<span style={{ color: "var(--main-color)" }}> Shariful Islam</span>
           </h1>
         </SwiperSlide>
         <SwiperSlide>
@@ -139,9 +145,15 @@ const Carousel = () => {
           </h1>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={img3} />
+          <img src="/diya.jpg" />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
-            Md<span style={{ color: "var(--main-color)" }}> Shariful Islam</span>
+          MST  DIYA <span style={{ color: "var(--main-color)" }}> ISLAM</span>
+          </h1>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src="/tuli1.jpg" />
+          <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
+          MST  TULI <span style={{ color: "var(--main-color)" }}> KHATUN</span>
           </h1>
         </SwiperSlide>
         <SwiperSlide>
@@ -165,7 +177,7 @@ const Carousel = () => {
         <SwiperSlide>
           <img src={img8} />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
-            HARUN<span style={{ color: "var(--main-color)" }}> R</span> RASHID
+            HARUN<span style={{ color: "var(--main-color)" }}> OR</span> RASHID
           </h1>
         </SwiperSlide>
         <SwiperSlide>

@@ -179,15 +179,18 @@ const Header = () => {
                   <ThemeToggleMain/>
                 </NavLink>
               </li> */}
-              <li style={{ margin: "-20px 10px" }}>
+              <li>
                 {!currentUser ? (
-                  <a
-                    color="inherit"
-                    startIcon={<Lock />}
-                    onClick={() => dispatch({ type: "OPEN_LOGIN" })}
-                  >
-                    Login
-                  </a>
+                  <>
+                    <a
+                      color="inherit"
+                      startIcon={<Lock />}
+                      onClick={() => dispatch({ type: "OPEN_LOGIN" })}
+                    >
+                      Login
+                    </a>
+                    <a href="/theme">Theme</a>
+                  </>
                 ) : (
                   <UserIcons />
                 )}
