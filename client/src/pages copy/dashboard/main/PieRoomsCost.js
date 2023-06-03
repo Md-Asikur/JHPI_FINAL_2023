@@ -59,7 +59,7 @@ const projects = useFetchCollection("projects");
       { name: "Notices", qty: notices?.data?.length },
       { name: "Entertainments", qty: entertainment?.data?.length },
     ]);
-  }, [rooms]);
+  }, [rooms,students,teachers,projects,notices]);
   return (
     <Box
       sx={{

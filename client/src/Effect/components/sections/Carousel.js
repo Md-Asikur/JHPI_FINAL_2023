@@ -109,7 +109,7 @@ const Container = styled.div`
 const Carousel = () => {
   return (
     <Container>
-      {" "}
+      
       <Swiper
         autoplay={{ delay: 2000, disableOnInteraction: false }}
         pagination={{ type: "fraction" }}
@@ -120,6 +120,12 @@ const Carousel = () => {
         modules={[EffectCards, Pagination, Navigation, Autoplay]}
         className="mySwiper"
       >
+        <SwiperSlide>
+          <img src="/tuli1.jpg" />
+          <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
+            MST TULI <span style={{ color: "var(--main-color)" }}> KHATUN</span>
+          </h1>
+        </SwiperSlide>
         <SwiperSlide>
           <img src={img1} />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
@@ -147,15 +153,15 @@ const Carousel = () => {
         <SwiperSlide>
           <img src="/diya.jpg" />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
-          MST  DIYA <span style={{ color: "var(--main-color)" }}> ISLAM</span>
+            MST DIYA <span style={{ color: "var(--main-color)" }}> ISLAM</span>
           </h1>
         </SwiperSlide>
-        <SwiperSlide>
+        {/* <SwiperSlide>
           <img src="/tuli1.jpg" />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>
           MST  TULI <span style={{ color: "var(--main-color)" }}> KHATUN</span>
           </h1>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide>
           <img src={img5} />
           <h1 style={{ color: "var(--main-bg)", paddingTop: "10px" }}>

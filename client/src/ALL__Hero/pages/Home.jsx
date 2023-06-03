@@ -22,6 +22,7 @@ import Carousel from "../../Effect/components/sections/Carousel";
 import Roadmap from "../../Effect/components/sections/Roadmap";
 import ShowCase from "../../Effect/components/sections/ShowCase";
 import Team from "../../Effect/components/sections/Team";
+import Reserch from "../../Effect/components/sections/reserch";
 
 const HomeHero = () => {
   return (
@@ -30,8 +31,9 @@ const HomeHero = () => {
       <HeroSection />
       {/* <Carousel /> */}
       <Roadmap />
-      <ShowCase />
-      <Team/>
+      {/* <ShowCase /> */}
+      <Team />
+      <Reserch/>
       <CompanySection />
       {/* <AboutUs /> */}
       <Courses />

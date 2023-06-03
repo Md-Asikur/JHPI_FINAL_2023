@@ -137,12 +137,11 @@ const ShowCase = () => {
         <Section>
           <Row direction="none" ref={RowRef1}>
             <NftItem img={img11} name="Md Sazedur Rahman" passRef={RowRef1} />
-
+            <NftItem img="/tuli1.jpg" name="Mst Tuli Khatun" passRef={RowRef1} />
             <NftItem img={img8} name="Md Harun Islam" passRef={RowRef1} />
             <NftItem img={img3} name="Md Sariful Islam" passRef={RowRef1} />
             <NftItem img={img4} name="Mst Sharmin Sultana" passRef={RowRef1} />
             <NftItem img="/diya.jpg" name="Mst Diya Islam" passRef={RowRef1} />
-            <NftItem img="/tuli1.jpg" name="Mst Tuli Khatun" passRef={RowRef1} />
           </Row>
           <Row direction="reverse" ref={RowRef2}>
             <NftItem img={img10} name="Md Tarilul Islam" passRef={RowRef2} />

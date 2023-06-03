@@ -117,7 +117,7 @@ export default function About() {
           <p className="text-[1rem] lg:text-[2.5rem] font-normal tracking-wide text-headingColor">
             About Jhenaidah Polytechnic Institute (30023)Jhenaidah Polytechnic Institute
             <div class="image-section">
-              <img src="https://images.pexels.com/photos/207684/pexels-photo-207684.jpeg?auto=compress&cs=tinysrgb&w=600" />
+              <img src="/jhpi.jpg" />
             </div>{" "}
             is situated on the eastern outskirts of the district town of Jhenaidah
             District. The institute is near the Jhenaidah Bus Terminal and on the north

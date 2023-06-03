@@ -85,14 +85,16 @@ const Header = () => {
               // color: "white",
               cursor: "pointer",
               fontWeight: "700",
-              fontFamily: "cursive",
+              fontFamily: "monospace",
+              letterSpacing: "1.8px",
+              fontSize:"4rem"
             }}
             onClick={() => navigate("/")}
           >
             JH
             <span
               style={{
-                // color: "#9d0191",
+                 color: "#fff",
                 fontWeight: "700",
                 fontFamily: "cursive",
                 cursor: "pointer",
@@ -189,7 +191,7 @@ const Header = () => {
                     >
                       Login
                     </a>
-                    <a href="/theme">Theme</a>
+                    <NavLink to="/theme">Theme</NavLink>
                   </>
                 ) : (
                   <UserIcons />

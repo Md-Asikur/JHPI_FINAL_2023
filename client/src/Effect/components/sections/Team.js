@@ -13,7 +13,7 @@ import img10 from "../assets/Nfts/principal.png";
 import TeamHoverEff from "./TeamHoverEff";
 import { Link } from "react-router-dom";
 const Section = styled.section`
-  height: 100vh;
+  height: 100%;
   width: 100%;
   position: relative;
   background-color: ${(props) => props.theme.body};
@@ -154,14 +154,14 @@ const Team = () => {
       </h1>
       <Container>
         <Membercomponent img={img10} name="Md Sajedur Rahman" position="PRINCIPAL" />
-        <Membercomponent img={img1} name="Md Mahbubur Rahman" position="SUB-PRINCIPAL" />
+        <Membercomponent img="/tuli1.jpg" name="Mst Tuli Khatun" position="INSTRUCTOR" />
+        <Membercomponent img={img8} name="Harun Or Rashid" position="INSTRUCTOR" />
         <Membercomponent img={img3} name="Md Sariful Islam" position="INSTRUCTOR" />{" "}
         <Membercomponent img={img4} name="Mst Sharmin Sultana" position="INSTRUCTOR" />
         <Membercomponent img="/diya.jpg" name="Mst Diya Khatun" position="INSTRUCTOR" />
-        <Membercomponent img="/tuli1.jpg" name="Mst Tuli Khatun" position="INSTRUCTOR" />
         <Membercomponent img={img9} name="Md Tahera Khatun" position="INSTRUCTOR" />
-        <Membercomponent img={img8} name="Harun Or Rashid" position="INSTRUCTOR" />
         <Membercomponent img={img5} name="Pabitra Kumar Biswas" position="INSTRUCTOR" />
+        <Membercomponent img={img1} name="Md Mahbubur Rahman" position="SUB-PRINCIPAL" />
       </Container>
       <h1 style={{ textAlign: "center", fontSize: "2rem" }}>
         {" "}

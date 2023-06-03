@@ -1,8 +1,7 @@
 export const sliderData = [
   {
-    image:
-      "https://images.pexels.com/photos/586570/pexels-photo-586570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    heading: "PLAYING TIME",
+    image: "/jhpi.jpg",
+    heading: "OUR JHPI",
     desc: "Jhenaidah Polytechnic Institute",
   },
   {

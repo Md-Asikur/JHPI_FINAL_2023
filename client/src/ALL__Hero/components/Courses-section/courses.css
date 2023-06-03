@@ -1,8 +1,14 @@
 .single__course__item {
   padding: 15px;
 }
-
+.course__img{
+ 
+  width: 400px;
+}
 .course__img img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -29,6 +35,7 @@
 }
 
 .course__title {
+  font-size: 22px;
   line-height: 2rem;
 }
 

@@ -27,6 +27,7 @@ const Box = styled.div`
 const Home = () => {
   return (
     <Section id="home">
+     
       <Container>
         <Box>
          <TypeWritter/>

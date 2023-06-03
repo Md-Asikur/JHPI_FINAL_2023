@@ -41,6 +41,7 @@ const Main = ({ setSelectedLink, link}) => {
 
   return (
     <>
+      <h1 className='our_head'>Dashboard</h1>
       <Paper
         elevation={1}
         sx={{ p: 2, gridColumn: "1/5" }}

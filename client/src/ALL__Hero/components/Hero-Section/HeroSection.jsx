@@ -9,7 +9,8 @@ import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 const Title = styled.h2`
   margin-top: 250px;
-  font-size: ${(props) => props.theme.fontxxl};
+  // font-size: ${(props) => props.theme.fontxxl};
+  font-size: 20px;
   text-transform: capitalize;
   width: 80%;
   color: ${(props) => props.theme.text};
@@ -22,14 +23,14 @@ const Title = styled.h2`
     font-family: cursive;
   }
   .text-1 {
-    color: blue;
+    color: var(--main-color);
     font-weight: 600;
   }
   .text-2 {
     color: #0a1930;
   }
   .text-3 {
-    color: red;
+    color: var(--main-color);
     font-weight: 600;
   }
   .text-4 {
@@ -49,7 +50,13 @@ const Subtitle = styled.h3`
 `;
 const HeroSection = () => {
   return (
-    <section>
+    <section className="hero_sec">
+      <div className="logo-header">
+        <img
+          src="http://jhenaidahpoly.gov.bd/wp-content/uploads/2020/01/jhpi-logo.png"
+          alt=""
+        />
+      </div>
       <Container>
         <Row>
           <Col lg="6" md="6">
@@ -68,7 +75,7 @@ const HeroSection = () => {
               <button className="btn">Search</button>
             </div> */}
             <Title className="about-head">
-              <span>KN</span>OW OU<span>R</span> <span>INSTITUTE.</span>
+              ABOUT OU<span>R</span> INS<span>TIT</span>UTE.
               <Typewriter
                 options={{
                   autoStart: true,
@@ -81,13 +88,13 @@ const HeroSection = () => {
                     .pauseFor(2000)
                     .deleteAll()
                     .typeString(
-                      '<span class="text-2">JHENAIDAH <span class="text-3">POLYTECHNIC</span> <span class="text-1">INSTITUE.</span></span>'
+                      '<span class="text-2">JHENAIDAH <span class="text-3"> POLYTECHNIC</span> <span class="text-1"> INSTITUTE.</span></span>'
                     )
 
                     .pauseFor(2000)
                     .deleteAll()
                     .typeString(
-                      '<span class="text-3">SAZEDUR RAHMAN,<span class="text-4">PRINCIPAL!</span></span>'
+                      '<span class="text-3">JHENAIDAH<span class="text-4"> POLYTECHNIC</span> INSTITUTE.</span>'
                     )
 
                     .pauseFor(2000)
